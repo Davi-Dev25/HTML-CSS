@@ -6,20 +6,25 @@
     <title>Document</title>
     <style>
         body{
-            width: 100%;
+            background-color: black;
         }
-        img{
-            width: auto;
-            width: 100%;
+        section{
+            background-image: url(imagens/espaco.jpg);
+            height: 98vh;
         }
         #astronauta{
-            margin: 50%;
-            margin: auto;
+            position: relative;
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
-    <div><img src="imagens/espaco.jpg" alt="imagen do espaço"></div>
+<section>
     <img id="astronauta" src="imagens/astronauta.png" alt="imagen de um astronauta">
+</section>
+
 </body>
 </html>
