@@ -1,4 +1,16 @@
 @charset "UTF-";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Bebas+Neue&family=Heebo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit&family=Passion+One:wght@400;700;900&family=Sriracha&family=Young+Serif&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Bebas+Neue&family=Heebo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit&family=Passion+One:wght@400;700;900&family=Sriracha&family=Young+Serif&display=swap');
+
+:root{
+    --fonte2:'Passion one', cursive;
+    --fonte3:'Sriracha', cursive:
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -6,6 +18,7 @@
 html, body{
     min-width: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 header{
     background-color: black;
@@ -15,6 +28,8 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 6vh;
 }
 header > p{
     padding-bottom: 50px;
@@ -32,6 +47,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size: 2.2vh;
 }
 .normal{
     background-color: white;
@@ -43,7 +60,7 @@ section{
 }
 .imagem > p{
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.482);
+    background-color: rgba(0, 0, 0, 0.347);
 }
 footer{
     background-color: black;
