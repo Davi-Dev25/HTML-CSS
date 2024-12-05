@@ -17,7 +17,7 @@
 }
 html, body{
     min-width: 100vh;
-    background-color: darkgray;
+    background-color: rgb(255, 255, 255);
     font-family: var(--fonte1);
 }
 header{
@@ -43,6 +43,7 @@ header a:hover, footer a:hover{
     text-decoration: underline;
 }
 section{
+    
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
