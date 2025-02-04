@@ -14,9 +14,9 @@ Grandes telas: 1280+
 
 } /*IMPRESSÃO*/
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 490px) and (max-width: 680px){
     body{
-        background-image: url(../back-tablet.jpg);
+        background-image: url(../imagens/back-tablet.jpg);
     }
 
     #phone{display: none;}
@@ -24,13 +24,14 @@ Grandes telas: 1280+
 #print{display: none;}
 #pc{display: none;}
 #tv{display: none;}
+img{width: 250px;}
 
 
 }/*TABLET*/
 
-@media screen and (min-width: 992px) and (max-width: 1200px){
+@media screen and (min-width: 780px) and (max-width: 1200px){
     body{
-        background-image: url(../icon-pc.png)
+        background-image: url(../imagens/back-pc.jpg)
 
 
         
@@ -45,7 +46,7 @@ Grandes telas: 1280+
 
 @media screen and(min-width: 1200px){
     body{
-        background-image: url(../back-tv.jpg);
+        background-image: url(../imagens/back-tv.jpg);
 
     }
     #phone{display: none;}
@@ -53,5 +54,7 @@ Grandes telas: 1280+
     #print{display: none;}
     #pc{display: block;}
     #tv{display: none;}
+    img{width: 500px;}
 
 }/*TELAS GRANDES*/
+
