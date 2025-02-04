@@ -11,21 +11,39 @@ Grandes telas: 1280+
 */
 
 @media print{
+    *{font-family: 'Courier New', Courier, monospace;}
+
+    body{
+        background-image: url(../imagens/icon-print.png);
+    }
+    
+    main{
+        border: 2px solid black;
+    }
+    main, h1{
+        color: black;
+        text-shadow: none;
+
+}
+#phone{display: none;}
+#tablet{display: none;}
+#print{display: block;}
+#pc{display: none;}
+#tv{display: none;}
 
 } /*IMPRESSÃO*/
 
 @media screen and (min-width: 490px) and (max-width: 680px){
+
     body{
         background-image: url(../imagens/back-tablet.jpg);
-    }
 
-    #phone{display: none;}
-#tablet{display: block;}
-#print{display: none;}
-#pc{display: none;}
-#tv{display: none;}
-img{width: 250px;}
-
+        #phone{display: none;}
+        #tablet{display: block;}
+        #print{display: none;}
+        #pc{display: none;}
+        #tv{display: none;}
+        img{width: 250px;}
 
 }/*TABLET*/
 
@@ -33,7 +51,7 @@ img{width: 250px;}
     body{
         background-image: url(../imagens/back-pc.jpg)
 
-
+    }
         
     }
     #phone{display: none;}
