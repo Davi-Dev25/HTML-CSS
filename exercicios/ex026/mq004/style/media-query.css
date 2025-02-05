@@ -33,7 +33,7 @@ Grandes telas: 1280+
 
 } /*IMPRESSÃO*/
 
-@media screen and (min-width: 490px) and (max-width: 680px){
+@media screen and (min-width: 768px) and (max-width: 992px){
 
     body{
         background-image: url(../imagens/back-tablet.jpg);
@@ -47,7 +47,7 @@ Grandes telas: 1280+
 
 }/*TABLET*/
 
-@media screen and (min-width: 780px) and (max-width: 1200px){
+@media screen and (min-width: 993px) and (max-width: 1200px){
     body{
         background-image: url(../imagens/back-pc.jpg)
 
