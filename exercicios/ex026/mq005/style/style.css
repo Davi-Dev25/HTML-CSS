@@ -32,16 +32,16 @@ header > h1{
     background-color: white;
     color: black;
 }
-menu{
+nav{
     display: none;
 }
 
-menu li{
+nav li{
     display: block;
 
 }
 
-menu > ul > li >  a{
+nav > ul > li >  a{
     background-color: rgb(51, 51, 51);
     color: white;
     display: block;
@@ -51,7 +51,7 @@ menu > ul > li >  a{
     border-top: 2px solid gray;
 }
 
-menu a:hover{
+nav a:hover{
     background-color: rgb(84, 84, 84);
 }
 
@@ -61,7 +61,7 @@ menu a:hover{
 main{
     background-color: white;
     width: 90vw;
-    margin: auto;
+    margin: 10px auto;
     margin-top: 10px;
     padding: 10px;
     border-radius: 5px;
