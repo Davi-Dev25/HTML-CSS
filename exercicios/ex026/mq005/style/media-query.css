@@ -15,7 +15,7 @@
     }
 
     nav > a{
-        margin: 10px;
+        border-top: 2px solid rgb(51, 51, 51);
     }
 
     main{
