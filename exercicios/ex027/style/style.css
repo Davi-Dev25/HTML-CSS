@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.pai{
+    background-color: rgb(255, 0, 255);
+
+    display: flex;
+}
+.item{
+    background-color: blueviolet;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+}
